@@ -1,0 +1,133 @@
+.Contact-section {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pageHeader {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.86);
+    /* Set overlay color here */
+    z-index: -1;
+    transition: background-color 0.5s ease;
+    border-radius: 30%;
+}
+
+.page_contactContent__ZnvL_ {
+    border-color: #fff;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 20px;
+    /* Add rounded corners */
+}
+
+.page_linksDiv__piddR {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+    position: relative;
+
+
+}
+
+.page_links__XDbcp {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.page_linksDiv__piddR .page_links__XDbcp {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.page_linksDiv__piddR svg {
+    fill: #fff;
+    height: 150px;
+    /* Adjust the height as needed */
+    width: auto;
+    /* Maintain aspect ratio */
+    margin-right: 10px;
+    /* Add some space between icon and text */
+    transition: transform 0.5s ease;
+}
+
+.page_or__k2Dn2 {
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    /* Adjust this value as needed */
+    left: 44%;
+    transform: translateX(-50%);
+}
+
+.page_links__XDbcp:hover svg {
+    /* fill: #321180; */
+    /* Change the color to your desired hover color */
+    transform: scale(1.1);
+
+    /* Increase the size of the icon on hover */
+}
+
+.email_btn {
+
+    color: #fffef9;
+    padding: 13px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0);
+    position: relative;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.email_btn:hover {
+    background-color: #fff7f7;
+    color: #050101;
+}
+
+/* Style for the footer */
+.site-footer {
+    background-color: rgba(63, 67, 68, 0.9);
+    height: 80px;
+    /* Adjust the height as needed */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    /* Ensure it's on top of other content */
+}
+
+
+/* Style for the text in the footer */
+.site-footer p {
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+}
